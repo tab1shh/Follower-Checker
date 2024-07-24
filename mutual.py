@@ -1,7 +1,7 @@
 import json
 
 following_file_path = r'connections\followers_and_following\following.json'
-followers_file_path = r'connections\followers_and_following\followers_1.json'
+followers_file_path = r'connections\followers_and_following\followers.json'
 
 def read_json_file(file_path):
     with open(file_path, 'r') as json_file:
